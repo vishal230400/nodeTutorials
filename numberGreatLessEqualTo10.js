@@ -1,4 +1,4 @@
-const amount = 12;
+const amount = 15;
 
 console.log(
   "Program to find whether the Number Greater/Lesser/Equal to 10 !!!"
