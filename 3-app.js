@@ -1,7 +1,9 @@
 const names = require("./4-names");
 const { john, peter } = require("./4-names");
 const sayHi = require("./5-utils");
+const data = require("./6-alternativeSyntax");
 
+console.log(data);
 console.log(names);
 console.log(sayHi);
 console.log(peter);
