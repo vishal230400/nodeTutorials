@@ -2,6 +2,8 @@
 
 const { readFileSync, writeFileSync, read } = require("fs");
 
+console.log("Start");
+
 const first = readFileSync("./content/first.txt", "utf8");
 const second = readFileSync("./content/second.txt", "utf8");
 
@@ -12,3 +14,6 @@ writeFileSync(
   `Here is the result : ${first}, ${second}`,
   { flag: "a" } //flag a is append without flag argument it will clear the file and rewrite
 );
+
+console.log("Done with the task");
+console.log("Starting new task");
